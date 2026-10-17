@@ -1,0 +1,8 @@
+2026-10-17T15:27:57.763879	INFO	nilchan_hw/main.go:39	connecting to DB
+2026-10-17T15:27:57.778781	ERROR	nilchan_hw/main.go:27	application stopped with error	{"error": "connect to database: failed to connect to `user=mac database=`: /private/tmp/.s.PGSQL.5432 (/private/tmp): failed SASL auth: FATAL: password authentication failed for user \"mac\" (SQLSTATE 28P01)"}
+main.runMain
+	/Users/mac/Desktop/андрей/nilchan_hw/main.go:27
+main.main
+	/Users/mac/Desktop/андрей/nilchan_hw/main.go:14
+runtime.main
+	/usr/local/go/src/runtime/proc.go:302

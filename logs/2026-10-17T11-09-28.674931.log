@@ -1,0 +1,4 @@
+2026-10-17T14:09:28.675217	INFO	nilchan_hw/main.go:40	connecting to DB
+2026-10-17T14:09:28.716132	INFO	nilchan_hw/main.go:52	connected to database
+2026-10-17T14:09:28.717908	INFO	nilchan_hw/main.go:58	books table is ready
+2026-10-17T14:09:28.722473	INFO	nilchan_hw/main.go:74	book created	{"id": 7, "title": "Вишневый сад"}

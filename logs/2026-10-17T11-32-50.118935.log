@@ -1,0 +1,4 @@
+2026-10-17T14:32:50.119129	INFO	nilchan_hw/main.go:40	connecting to DB
+2026-10-17T14:32:50.143191	INFO	nilchan_hw/main.go:52	connected to database
+2026-10-17T14:32:50.151498	INFO	nilchan_hw/main.go:58	books table is ready
+2026-10-17T14:32:50.157411	INFO	nilchan_hw/main.go:98	book updated	{"id": 3, "title": "Три сестры"}

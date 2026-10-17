@@ -1,0 +1,11 @@
+2026-10-17T14:28:53.776011	INFO	nilchan_hw/main.go:40	connecting to DB
+2026-10-17T14:28:53.797734	INFO	nilchan_hw/main.go:52	connected to database
+2026-10-17T14:28:53.799921	INFO	nilchan_hw/main.go:58	books table is ready
+2026-10-17T14:28:53.806003	INFO	nilchan_hw/main.go:74	book created	{"id": 8, "title": "Вишневый сад"}
+2026-10-17T14:28:53.807778	ERROR	nilchan_hw/main.go:28	application stopped with error	{"error": "update row 3: ERROR: syntax error at or near \"=%\" (SQLSTATE 42601)"}
+main.runMain
+	/Users/mac/Desktop/андрей/nilchan_hw/main.go:28
+main.main
+	/Users/mac/Desktop/андрей/nilchan_hw/main.go:15
+runtime.main
+	/usr/local/go/src/runtime/proc.go:302
