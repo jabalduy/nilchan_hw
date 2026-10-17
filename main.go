@@ -1,13 +1,23 @@
 package main
 
 import (
+	"context"
 	"fmt"
-	"nilchan_hw/repeat"
+	"nilchan_hw/postgres/connection"
 )
 
 func main() {
 	fmt.Println("Hello, World!")
-	repeat.Repeat(6, ":D")
-	repeat.Repeat(3, 67)
-	repeat.Repeat(4, 3.14)
+
+	ctx := context.Background()
+	conn, err := connection.ConnectDB(ctx)
+	if err != nil {
+		panic(err)
+	}
+
+	if err = conn.Ping(ctx); err != nil {
+		panic(err)
+	}
+
+	fmt.Println("Connected seccesfully!")
 }
