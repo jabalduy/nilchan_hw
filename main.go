@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"fmt"
-	"nilchan_hw/postgres/connection"
-	"nilchan_hw/postgres/simplesql"
+	"nilchan_hw/repository/connection"
+	"nilchan_hw/repository/simplesql"
 	"os"
 	"strconv"
 
