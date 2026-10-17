@@ -6,12 +6,23 @@ import (
 	"nilchan_hw/postgres/connection"
 	"nilchan_hw/postgres/simplesql"
 	"os"
+	"strconv"
 
 	"go.uber.org/zap"
 )
 
 func main() {
-	os.Exit(runMain())
+	strCount := os.Getenv("OUTPUT_COUNT")
+	count, err := strconv.Atoi(strCount)
+	if err != nil {
+		panic(err)
+	}
+
+	for i := range count {
+		fmt.Println("Работа цикла:", i+1)
+	}
+
+	// os.Exit(runMain())
 }
 
 func runMain() int {
