@@ -1,0 +1,4 @@
+2026-10-17T13:49:14.235059	INFO	nilchan_hw/main.go:40	connecting to DB
+2026-10-17T13:49:14.268909	INFO	nilchan_hw/main.go:52	connected to database
+2026-10-17T13:49:14.269796	INFO	nilchan_hw/main.go:58	books table is ready
+2026-10-17T13:49:14.273848	INFO	nilchan_hw/main.go:74	book created	{"id": 5, "title": "Отцы и дети"}

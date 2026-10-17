@@ -4,4 +4,4 @@ export
 .PHONY: service-run
 
 service-run:
-	@go run main.go
+	@go run .

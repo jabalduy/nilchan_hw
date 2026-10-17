@@ -1,0 +1,4 @@
+2026-10-17T13:48:17.464716	INFO	nilchan_hw/main.go:40	connecting to DB
+2026-10-17T13:48:17.504610	INFO	nilchan_hw/main.go:52	connected to database
+2026-10-17T13:48:17.506406	INFO	nilchan_hw/main.go:58	books table is ready
+2026-10-17T13:48:17.511369	INFO	nilchan_hw/main.go:74	book created	{"id": 4, "title": "Евгений Онегин"}

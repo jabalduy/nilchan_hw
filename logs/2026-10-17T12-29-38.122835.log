@@ -1,0 +1,4 @@
+2026-10-17T15:29:38.123125	INFO	nilchan_hw/main.go:39	connecting to DB
+2026-10-17T15:29:38.159572	INFO	nilchan_hw/main.go:51	connected to database
+2026-10-17T15:29:38.161293	INFO	nilchan_hw/main.go:57	books table is ready
+2026-10-17T15:29:38.167979	INFO	nilchan_hw/main.go:123	books pagination completed
